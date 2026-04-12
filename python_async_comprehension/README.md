@@ -25,12 +25,6 @@ Contains a coroutine called `async_comprehension` that collects 10 random number
 ### `2-measure_runtime.py`
 Contains a coroutine called `measure_runtime` that runs `async_comprehension` four times in parallel using `asyncio.gather`, measures the total runtime, and returns it.
 
-## Author
-
-**Munirah Alotaibi**
-
-
-
 
 ```python
 #!/usr/bin/env python3
@@ -40,3 +34,8 @@ python_async_comprehension/
 ├── 1-async_comprehension.py
 ├── 2-measure_runtime.py
 └── README.md
+
+```
+## Author
+
+**Munirah Alotaibi**
