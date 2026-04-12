@@ -13,6 +13,7 @@ At the end of this project, I should be able to explain:
 - How to run multiple coroutines in parallel with `asyncio.gather`
 - How to measure the runtime of asynchronous tasks
 
+
 ## Tasks
 
 ### `0-async_generator.py`
@@ -23,6 +24,12 @@ Contains a coroutine called `async_comprehension` that collects 10 random number
 
 ### `2-measure_runtime.py`
 Contains a coroutine called `measure_runtime` that runs `async_comprehension` four times in parallel using `asyncio.gather`, measures the total runtime, and returns it.
+
+## Author
+
+**Munirah Alotaibi**
+
+
 
 
 ```python
