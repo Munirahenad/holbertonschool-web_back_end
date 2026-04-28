@@ -48,7 +48,8 @@ class Server:
             page_size: The number of rows to include in the page.
 
         Returns:
-            A list of rows for the requested page, or an empty list if out of range.
+            A list of rows for the requested page, or an empty list if
+            out of range.
         """
         assert isinstance(page, int) and page > 0
         assert isinstance(page_size, int) and page_size > 0
